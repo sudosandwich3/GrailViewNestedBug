@@ -1,0 +1,7 @@
+import viewsnested.MyObj
+
+model {
+  MyObj myObj
+}
+
+json g.render(myObj, [includes: ['val3']])

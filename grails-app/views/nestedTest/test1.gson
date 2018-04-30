@@ -1,0 +1,8 @@
+import viewsnested.MyObj
+
+inherits template:'/nestedTest/inheritRender1'
+model {
+   MyObj myObj
+}
+
+json g.render(myObj, [includes: ['val1']])

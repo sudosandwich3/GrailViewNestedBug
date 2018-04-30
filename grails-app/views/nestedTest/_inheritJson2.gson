@@ -1,0 +1,9 @@
+import viewsnested.MyObj
+
+model {
+  MyObj myObj
+}
+
+json {
+  val3 myObj.val3
+}

@@ -1,0 +1,10 @@
+import viewsnested.MyObj
+
+inherits template:'/nestedTest/inheritJson2'
+model {
+  MyObj myObj
+}
+
+json {
+  val2 myObj.val2
+}
